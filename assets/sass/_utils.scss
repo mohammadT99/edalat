@@ -1,0 +1,36 @@
+// text-font-size
+.text-s-md{
+    font-size: $font;
+    font-weight: 500;
+}
+
+.text-s-sm {
+    font-size: $font-sm;
+    font-weight: 500;
+}
+
+// widths-style
+
+
+
+// icon
+.circle-icon{
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    padding: 6px;
+    background-color: white;
+    border-radius:120px ;
+ 
+}
+
+
+// gap style 
+
+.g-1 {
+    gap: 1px;
+}
+
+.g-2 {
+    gap: 3px;
+}

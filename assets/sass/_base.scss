@@ -1,0 +1,32 @@
+.owl-carousel {
+    .owl-nav {
+      button {
+        width: 25px;
+        height: 25px;
+        background-color: #efefef !important;
+        position: absolute;
+        top: calc(50% - 12.5px);
+        text-align: center;
+        border-radius: 100%;
+  
+        img {
+          width: 6px;
+          line-height: 25px;
+          margin: auto;
+        }
+  
+        &:hover {
+          background-color: $gray !important;
+        }
+  
+        &.owl-prev {
+          right: -12px;
+        }
+  
+        &.owl-next {
+          left: -12px;
+        }
+      }
+    }
+  }
+  
