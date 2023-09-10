@@ -1,0 +1,65 @@
+// .popular-articles{
+
+// }
+.big-slide {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 20px;
+    background: url("/assets/images/dmitrii-vaccinium-ByUAo3RpA6c-unsplash.png")
+      no-repeat center center/cover;
+    height: 457px;
+    border-radius: $border-radius;
+    p {
+      font-weight: 400;
+    }
+    .date {
+      position: relative;
+      right: 300px;
+      font-weight: 350;
+    }
+  }
+  
+  .article-slide {
+    display: block;
+    margin-top: 20px;
+    .menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: $white;
+      height: 60px;
+      border-radius: $border-radius-md;
+      .active {
+        padding: 8px;
+        background: $blue;
+        border-radius: $border-radius-sm;
+        color: $white;
+      }
+    }
+    .little-slide {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      height: 90px;
+      background-color: $white;
+      border-radius: $border-radius-md;
+      border-bottom: 1px solid $blue;
+      .img {
+        padding-right: 8px;
+        img {
+          width: 80px;
+          height: 70px;
+          border-radius: $border-radius-sm;
+        }
+      }
+      .title {
+        display: block;
+        
+        .span{
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+  

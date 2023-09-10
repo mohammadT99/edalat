@@ -34,3 +34,47 @@
 .g-2 {
     gap: 3px;
 }
+
+.btn-blue {
+    background-color: $blue;
+}
+
+.bg-blue {
+    background: $blue;
+}
+
+.slide-title {
+    margin-bottom: 30px;
+    margin-right: 20px;
+    h1 {
+      color: $white;
+      font-weight: 600;
+    }
+  }
+
+  .f-2 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .tx-normal{
+    font-size: $font;
+  }
+ .tx-sm{
+    font-size: $font-sm;
+ }
+
+ .tx-md{
+    font-size: $font-md;
+ }
+
+ .tx-lg {
+    font-size: $font-lg;
+ }
+
+ .tx-xlg{
+    font-size:$font-xlg;
+ }
+
+ .tx-bg-white{
+    color: $white;
+ }
