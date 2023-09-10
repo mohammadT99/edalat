@@ -88,6 +88,27 @@
     height: 292px;
     border-radius: 80px;
     .contact-left{
-        z-index: 1;
+        form{
+            border-radius: $border-radius-lg;
+            display: flex;
+            width: 350px;
+            padding:10px 20px;
+            background: $white;
+            position: relative;
+            top:120px;
+            right: 250px;
+            button{
+                white-space: nowrap;
+                color: $white;
+            }
+        }
     }
+}
+.contact-right {
+    
+    position: relative;
+    top: 60px;
+    right: 300px;
+    text-align: center;
+   
 }

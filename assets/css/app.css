@@ -10661,8 +10661,26 @@ This set of fonts are used in this project under the license: (.....)
   height: 292px;
   border-radius: 80px;
 }
-.contact .contact-left {
-  z-index: 1;
+.contact .contact-left form {
+  border-radius: 20px;
+  display: flex;
+  width: 350px;
+  padding: 10px 20px;
+  background: #fff;
+  position: relative;
+  top: 120px;
+  right: 250px;
+}
+.contact .contact-left form button {
+  white-space: nowrap;
+  color: #fff;
+}
+
+.contact-right {
+  position: relative;
+  top: 60px;
+  right: 300px;
+  text-align: center;
 }
 
 .big-slide {
