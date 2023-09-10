@@ -1,3 +1,93 @@
-.sliders{
-    
+.sliders {
+  margin-top: 20px;
+  background: $white;
+  height: max-content;
+  padding: 5px 15px;
+  .tabbar-top {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      white-space: nowrap;
+      padding: 8px 5px;
+    }
+  }
+  .topbar-botom {
+    background: #cccc;
+    a {
+      color: $black;
+    }
+    .active {
+      padding: 4px 8px;
+      background-color: $blue;
+      color: $white;
+      border-radius: $border-radius-sm;
+    }
+  }
+}
+.slider-article {
+  margin-top: 8px;
+  .item {
+    display: flex;
+    align-items: center;
+    height: 63px;
+    border-bottom: 1px solid $black;
+    gap: 8px;
+    p {
+      font-weight: 500;
+    }
+    .img {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      img {
+        height: 43px;
+        width: 43px;
+        border-radius: $border-radius-sm;
+      }
+    }
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.slid {
+  background: url("/assets/images/paul-green-gOHfFgwyDNM-unsplash.png")
+    no-repeat center center/cover;
+  height: 226px;
+  border-radius: $border-radius;
+  display: block;
+  p {
+    color: $white;
+    margin-top: 130px;
+    font-weight: 500;
+  }
+}
+
+.article-cart {
+  display: flex;
+  background: $white;
+  border-radius: $border-radius;
+  border-bottom: 1px solid $blue;
+  img {
+    height: 70px;
+    width: 80px;
+    border-radius: $border-radius-sm;
+  }
+}
+
+.button-article{
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    background: #282E3F;
+    height: 292px;
+    border-radius: 80px;
+    .contact-left{
+        z-index: 1;
+    }
 }

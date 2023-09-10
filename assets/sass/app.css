@@ -10619,6 +10619,101 @@ This set of fonts are used in this project under the license: (.....)
   color: #fff;
 }
 
+.sliders {
+  margin-top: 20px;
+  background: #fff;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 5px 15px;
+}
+.sliders .tabbar-top {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliders .tabbar-top a {
+  white-space: nowrap;
+  padding: 8px 5px;
+}
+.sliders .topbar-botom {
+  background: rgba(204, 204, 204, 0.8);
+}
+.sliders .topbar-botom a {
+  color: #000;
+}
+.sliders .topbar-botom .active {
+  padding: 4px 8px;
+  background-color: #0079FF;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.slider-article {
+  margin-top: 8px;
+}
+.slider-article .item {
+  display: flex;
+  align-items: center;
+  height: 63px;
+  border-bottom: 1px solid #000;
+  gap: 8px;
+}
+.slider-article .item p {
+  font-weight: 500;
+}
+.slider-article .item .img {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.slider-article .item .img img {
+  height: 43px;
+  width: 43px;
+  border-radius: 5px;
+}
+.slider-article .button {
+  display: flex;
+  justify-content: center;
+}
+
+.slid {
+  background: url("/assets/images/paul-green-gOHfFgwyDNM-unsplash.png") no-repeat center center/cover;
+  height: 226px;
+  border-radius: 10px;
+  display: block;
+}
+.slid p {
+  color: #fff;
+  margin-top: 130px;
+  font-weight: 500;
+}
+
+.article-cart {
+  display: flex;
+  background: #fff;
+  border-radius: 10px;
+  border-bottom: 1px solid #0079FF;
+}
+.article-cart img {
+  height: 70px;
+  width: 80px;
+  border-radius: 5px;
+}
+
+.button-article {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  background: #282E3F;
+  height: 292px;
+  border-radius: 80px;
+}
+.contact .contact-left {
+  z-index: 1;
+}
+
 .big-slide {
   display: flex;
   justify-content: flex-start;
